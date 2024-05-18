@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Slackside+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Candal&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Slackside+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=Slackside+One&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+<body>
+<!------------------Header Start---------------->
+<header>
+    <a href="#" class="logo">Port<span>folio</span></a>
+        <nav class="navbar">
+        <a href="">Home</a>
+        <a href="#about">about</a>
+        <a href="#skills">SKills</a>
+        <a href="#projects">Projects</a>    
+       <a href="#Contact-us">Contact</a>
+    </ul></nav>
+</header>
+<!------------------Header END------------------->
+
+<!--              //MAIN Start-->
+
+<main class="home">
+    <div class="home-content">
+        <div class="pic-bg"></div>
+        <div class="pic"></div>
+        <h1 class="b">I'm Sayyed Sayyeda Anam</h1>
+        <h3><span class="text c"></span></h3>
+            <div class="buttons">
+                <button id="downloadButton" class="btn">HIRE ME</button>
+                <button id="downloadButton" class="btn">Download Resume</button>
+            </div>
+    </div>
+</main>
+<!--//MAIN END-->
+
+<!---------------------About Section---------------------->
+<section id="about" class="image-container">
+  <img src="images/image5.avif">
+  <div class="text-container active-tabs">
+      <h1>About Me</h1>
+      <p>I have a strong interest in coding and I am constantly trying to learn new technologies. I am pursuing web development as a career and BCA as my degree of education. I have worked as an intern in DDT which gives me a good idea about handling my responsibilities without constant supervision.</p>
+      <div class="tab_titles">
+          <p class="tab_links active-link" onclick="opentab('12CBSC')">12CBSC</p>
+          <p class="tab_links" onclick="opentab('Degree')">Degree</p>
+          <p class="tab_links" onclick="opentab('Experience')">Experience</p>
+      </div>
+      <div class="tab_contents" id="12CBSC">
+          <p>12 From Faraan PU College of Science 2020-2022 <br> score 77.80% With PCMB <br> and the Second Language <br> Was English and Urdu</p>
+      </div>
+      <div class="tab_contents" id="Degree">
+          <p>BCA From Dr.BMN College Of Home Science 2022-2025 <br> score 85.80% till 4sem</p>
+      </div>
+      <div class="tab_contents" id="Experience">
+          <p>I have Completed 6 weeks virtual internship at DDT <br> As a web Developer and gained valuable Experience</p>
+      </div>
+  </div>
+</section>
+
+
+
+
+
+<!---------------------Skill Section---------------------->
+
+<section class="skills section" id="skills">
+  <h2 class="section__title">Skills</h2>
+
+  <div class="skills__container container grid">
+    <div>
+      <!--==================== Skill 1 =================-->
+      <div class="skills__content skills__open">
+        <div class="skills__header">
+          <i class="fas fa-pencil-ruler skills__icon"></i>
+
+          <div>
+            <h1 class="skills__title">Programming Languages</h1>
+          </div>
+
+          <i class="uil uil-angle-down skills__arrow"></i>
+        </div>
+
+        <div class="skills__list grid">
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">C</h3>
+              <span class="skills__nuber">70%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage skills__html"></span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">php</h3>
+              <span class="skills__nuber">60%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage skills__css"></span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">Python</h3>
+              <span class="skills__nuber">50%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage skills__js"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--==================== Skill 2 =================-->
+      <div class="skills__content skills__close">
+        <div class="skills__header">
+          <i class="fas fa-code skills__icon"></i>
+
+          <div>
+            <h1 class="skills__title">IT Constructs</h1>
+          </div>
+
+          <i class="uil uil-angle-down skills__arrow"></i>
+        </div>
+
+        <div class="skills__list grid">
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">DS & Algorithms</h3>
+              <span class="skills__nuber">60%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage skills__php"></span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">Mysql</h3>
+              <span class="skills__nuber">70%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage skills__node"></span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">OS</h3>
+              <span class="skills__nuber">75%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage skills__firebase"></span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">DBMS</h3>
+              <span class="skills__nuber">80%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage skills__python"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <!--==================== Skill 3 =================-->
+      <div class="skills__content skills__close">
+        <div class="skills__header">
+          <i class="fas fa-swatchbook skills__icon"></i>
+          <div>
+            <h1 class="skills__title">Technologies</h1>
+          </div>
+
+          <i class="uil uil-angle-down skills__arrow"></i>
+        </div>
+
+        <div class="skills__list grid">
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">HTML</h3>
+              <span class="skills__nuber">85%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage skills__figma"></span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">CSS</h3>
+              <span class="skills__nuber">70%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage skills__sketch"></span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">JavaScript</h3>
+              <span class="skills__nuber">60%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage skills__photoshop"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ------------------------projects section start-------------------- -->
+
+
+<section class="projects " id="projects">
+  <h2 class="section__title">Projects</h2>
+  <div class="projects__container container grid">
+    <div class="projects__item projects1">
+      <div class="project-box">
+        <img src="images/project1.png" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>TO-DO List</p>
+        <button class="project-btn"  data-github-url="https://github.com/Sayyeda-Anam/debugdeployment_project_To-Do-list">View Project</button>
+      </div>
+    </div>
+    <div class="projects__item projects2">
+      <div class="project-box">
+        <img src="images/project2.png" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>E-Commerse Website</p>
+        <button class="project-btn"  data-github-url="https://github.com/Sayyeda-Anam/debug_deployement_project_E-commerce_Landing_page">View Project</button>
+      </div>
+    </div>
+    <div class="projects__item projects3">
+      <div class="project-box">
+        <img src="images/project3.png" alt="Project 3">
+        <h3>Project 3</h3>
+        <p>Weather App</p>
+        <button class="project-btn"  data-github-url="https://github.com/Sayyeda-Anam/weatherApp">View Project</button>
+      </div>
+    </div>
+  </div>
+  <button class="view-projects-btn"  data-github-url="https://github.com/Sayyeda-Anam">View All Projects</button>
+</section>
+
+
+<!-- project sec End//-->
+</div>
+
+
+
+   <!-- //FOOTER Start-->
+<footer id="Contact-us">
+    <h1 class="txt"></h1>
+    <h3>Contact links</h3>
+    <a href="https://github.com/Sayyeda-Anam"> <i class="fa-brands fa-github links" ></i></a>
+    <a href="https://www.linkedin.com/in/sayyeda-anam-sayyed-82734429a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">  <i class="fa-brands fa-linkedin links" ></i></a>
+    
+    </footer>
+<!-- //FOOTER END-->
+
+    <script src="script.js"></script>     <!-- //SCRIPT-->
+     <!-- Font Awsome kit -->
+  <script src="https://kit.fontawesome.com/ddc46af206.js" crossorigin="anonymous"></script>
+</body>
+</html>

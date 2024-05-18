@@ -1,0 +1,585 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    
+}
+body{
+    background-color: rgb(2, 48, 71);
+    color:white;
+   
+    flex-direction: column; 
+    height: 100%;
+   
+    
+    
+    
+}
+/* -----------------------------HEADER  START--------------------------- */
+header{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;             
+             
+}
+.logo{
+    position: relative;
+    font-size: 1.7em;
+    color:white ;
+    font-weight: 1000;
+    text-shadow: 0 0 10px rgb(4, 50, 255),0 0 10px rgb(0, 89, 255),0 0 10px rgb(7, 247, 255);
+    font-family: "Candal", cursive;
+    transition: .5s;
+    
+}
+header span{
+    color: rgb(0, 0, 0);
+   
+}
+.navbar a{
+    
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(27, 247, 255),0 0 10px rgb(35, 211, 255),0 0 10px rgb(0, 195, 255);
+    font-weight: 500;
+    margin-left: 35px;
+    font-size: .9em;
+    transition: .5s;
+    font-family: "Candal", cursive;
+
+}
+.navbar a:hover,.logo:hover{
+    text-shadow: 0 0 5px rgb(255, 251, 0),0 0 5px rgb(229, 255, 0),0 0 5px rgb(255, 251, 0);
+    transform: scale(1.2);
+}
+
+/* -----------------------------HEADER  End--------------------------- */
+
+
+/* -----------------------------Main-Start--------------------------- */                    
+
+  /* -----------------------------Home--------------------------- */    
+.home{
+    
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(images/img2.webp)no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+    
+    
+}
+
+
+@keyframes animate{
+    0%{
+        transform:rotate(0deg);
+    }
+    0%{
+        transform:rotate(-360deg);
+    }
+}
+
+.home-content{
+  max-width: 600px;
+  text-shadow: 0 0 1.5px white,0 0 1.5px white,0 0 1.5px white;
+  color: rgb(255, 255, 255);
+  font-family: "Cuprum", sans-serif;
+}
+.home-content h1{
+    font-size: 50px;
+}
+.home-content h3{
+    font-size: 36px;
+    font-weight: 700;
+    
+    margin: -3px 0;
+ 
+}
+.home-content span{
+    color:rgb(0, 255, 221);
+    font-size: 50px;
+    font-family: cursive;
+    text-shadow: 0 0 4px rgb(183, 0, 255),0 0 4px rgb(162, 0, 255), 0 0 4px rgb(174, 0, 255);
+}
+.home-content p{
+    font-size: 20px;
+    padding-top: 5px;
+}
+.home-sym a{
+    color: aliceblue;
+    font-size: 1.5em;
+    text-shadow: 0 0 1px white,0 0 1px white,0 0 1px white;
+    margin: 30px 15px 30px 0;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    width: 40px;
+    height :40px;
+    background: transparent;   
+    border: 3px solid white;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+.home-sym a:hover{
+    background-color: aliceblue;
+    color: rgb(4, 77, 77);
+    text-shadow: 0 0 2px white,0 0 2px white,0 0 2px white;
+}
+.banner{
+    position: absolute;
+     z-index: -1;
+    height: 110vh;
+    width: 100%; 
+    
+}
+
+
+
+@media(min-aspect-ratio : 16/9){
+    .banner {
+        width: 100%;
+        
+        height: 110vh;
+        z-index: -888;
+        border-radius: 5px;
+        
+      
+        
+    }
+}
+.btn {
+    padding: 10px 10px;
+    background-color:  black;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: rgb(86, 83, 83);
+  }
+/*-----------------------------------Home End------------------------------*/
+/*------------------------------MAIN-END------------------------------*/
+
+/*------------------------ about Section started---------------------*/
+
+
+.image-container img{
+    position: relative;
+    background-repeat: no-repeat;
+    color: #fff;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    padding: 10px;
+
+  
+}
+.text-container p{
+    font-size: 19px;
+    line-height: 1.2;
+    color: white;
+    text-align: left;
+      
+}
+.tab_titles{
+    position: absolute;
+    display:flex;
+    margin : 20px 0 40px;
+    
+}
+.tab_links{
+    position: relative;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500 ;
+    cursor: pointer;
+}
+.tab_links::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff004f;
+    transition: width 0.5s ease;
+  }
+  
+  .tab_links:hover::after,
+  .tab_links.active-link::after {
+    width: 100%;
+  }
+.tab_contents p{
+   
+    list-style: none;
+    margin: 35px 0px;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 50px;
+    font-weight: normal;
+    line-height: 1.2;
+   
+}  
+.tab_contents {
+  display: none;
+}
+
+.tab_contents.active {
+  display: block;
+}
+
+
+
+ /* -----------------------------About End--------------------------- */    
+ 
+ /* -----------------------------Skill Start--------------------------- */ 
+ 
+.section__title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
+ 
+ .skills {
+  padding: 20px 0;
+  box-shadow: 0px -2px #fff;
+}
+
+.skills__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.skills__content {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.skills__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.skills__icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.skills__title {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+  color: #000;
+  font-weight: bold;
+}
+
+.skills__list {
+  margin-top: 10px;
+}
+
+.skills__data {
+  margin-bottom: 10px;
+}
+
+.skills__name {
+  font-weight: bold;
+  flex: 1;
+  color: #000;
+}
+
+.skills__nuber {
+  color: #777;
+  text-align: right;
+  flex: 1;
+}
+
+.skills__bar {
+  background-color: #3e3b3b;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.skills__percentage {
+  display: block;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.skills__html {
+  width: 70%;
+  background-color: #3498db;
+}
+
+.skills__css {
+  width: 60%;
+  background-color: #2ecc71;
+}
+
+.skills__js {
+  width: 50%;
+  background-color: #f1c40f;
+}
+
+.skills__php {
+  width: 60%;
+  background-color: #9b59b6;
+}
+
+.skills__node {
+  width: 70%;
+  background-color: #34495e;
+}
+
+.skills__firebase {
+  width: 75%;
+  background-color: #e67e22;
+}
+
+.skills__python {
+  width: 80%;
+  background-color: #e74c3c;
+}
+
+.skills__figma {
+  width: 85%;
+  background-color: #d35400;
+}
+
+.skills__sketch {
+  width: 70%;
+  background-color: #27ae60;
+}
+
+.skills__photoshop {
+  width: 60%;
+  background-color: #8e44ad;
+}
+ 
+
+
+/* -----------------------------SKill ENd ---------------------------- */ 
+
+/* -----------------------------project Start--------------------------- */ 
+
+.projects {
+  padding: 50px 0;
+  box-shadow: 0px -2px #fff;
+}
+
+.projects__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  
+}
+
+.projects__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 300px;
+}
+
+.projects__item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.project-btn {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.project-btn:hover {
+  background-color: #2980b9;
+}
+
+.view-projects-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-projects-btn:hover {
+  background-color: #2980b9;
+}
+
+.project-box {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.project-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  
+}
+
+.project-box h3 {
+  color: black;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.project-box p {
+  margin-top: 5px;
+  color: black;
+}
+
+
+/* -----------------------------project End--------------------------- */
+
+/* -----------------------------Footer  Start --------------------------- */ 
+footer{
+    height: 50vh;
+    background-color: black;
+    text-align: center;
+    font-family:"Candal", cursive;
+    padding: 30px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 5px;
+    width: 100%; 
+    box-shadow: 0px -2px #fff;
+}
+footer h1{
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+footer h3{
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+footer .links{
+    color: white;
+    font-size: 1em;
+    text-shadow: 0 0 1px white,0 0 1px white,0 0 1px white;
+    background: transparent;   
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding:7px 7px 7px 7px;
+}
+footer .links:hover{
+    padding: 10px;
+    color: white;
+    text-shadow: 0 0 2px white,0 0 2px white,0 0 2px white;
+
+}
+.btm{
+    height: 6vh;
+    background: white;
+    text-align: center;
+    padding-top: 12px;
+    font-family: sans-serif;
+     color: white;
+    font-size: 12px;
+
+            
+}
+.btm a{
+    color: white;
+}
+ /*---------------  Footer END----------------------------*/
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
